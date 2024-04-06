@@ -1,7 +1,6 @@
 # IMG-COLOR-DETECTION
 using opencv with python to detect the colour of different images using a web cam
 
-# Webcam Pixel Value Reader
 
 ## Overview
 This Python script captures video from the webcam using OpenCV and retrieves the pixel values of the center of the captured frame in HSV color space.
@@ -11,13 +10,13 @@ This Python script captures video from the webcam using OpenCV and retrieves the
 - OpenCV (cv2) library
 
 ## Usage
-1. Make sure you have Python installed on your system. If not, you can download it from [Python's official website](https://www.python.org/).
+1. Make sure you have Python installed on your system.
 2. Install the OpenCV library by running the following command:
     ```
     pip install opencv-python
     ```
 3. Connect your webcam to your computer.
-4. Run the script `webcam_pixel_value_reader.py`.
+4. Run the script `color_recognition.py`.
 5. The script will open a window displaying the video feed from the webcam.
 6. The script will print the HSV pixel values of the center of the video frame.
 7. Press `Esc` key to exit the script.
